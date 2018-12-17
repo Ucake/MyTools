@@ -1,0 +1,3 @@
+# MyTools
+这个仓库用来记录Android开发中的一个常见的工具
+CaptureCrash是获取发布过的APP中的crash。通过CrashHandler来监视应用的crash信息，给程序设置一个CrashHandler，这样当程序crash时就会调用CrashHandler的uncaughtException方法。这个例子来自于《Android开发艺术探索》第13章。
